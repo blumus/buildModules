@@ -16,7 +16,7 @@
     },
     "D": {
         "name": "D",
-        "dependencies": [],
+        "dependencies": ["A"],
         "actions": ["printBuild"]
     },
     "E": {
