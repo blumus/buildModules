@@ -1,0 +1,37 @@
+{
+    "A": {
+        "name": "A",
+        "dependencies": ["B", "C"],
+        "actions": ["printBuild"]
+    },
+    "B": {
+        "name": "B",
+        "dependencies": ["D"],
+        "actions": ["printBuild"]
+    },
+    "C": {
+        "name": "C",
+        "dependencies": ["D","E"],
+        "actions": ["printBuild"]
+    },
+    "D": {
+        "name": "D",
+        "dependencies": [],
+        "actions": ["printBuild"]
+    },
+    "E": {
+        "name": "E",
+        "dependencies": [],
+        "actions": ["printBuild"]
+    },
+    "F": {
+        "name": "F",
+        "dependencies": ["E","G"],
+        "actions": ["printBuild"]
+    },
+    "G": {
+        "name": "G",
+        "dependencies": [],
+        "actions": ["printBuild"]
+    }
+}
